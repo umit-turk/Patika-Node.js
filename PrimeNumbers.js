@@ -26,8 +26,4 @@ showPrimeNumbers(arguments[0]*1, arguments[1]*1);
 
 //node primeNumbers 2 11 3. ve 4. parametre olarak 2 ve 11 yazarsak bize array'in içerisinde dönüyor.
 
-
-
-
-
 //çalışmaları daha dinmik hale getirmek için küçük ve büyük sayıları biz girmek isteriz.
