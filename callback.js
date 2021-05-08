@@ -55,7 +55,7 @@ x = x + 5;
 console.log('3. gelen veri',x);
  */
 
-
+/* 
 const books = [
     {name: 'book 1', author: 'Yazar 1'},
     {name: 'book 2', author: 'Yazar 2'},
@@ -74,7 +74,7 @@ const addBook = (newBook, callback) => {
     callback();
 };
 
-addBook({name: 'book 4', author: 'Yazar 4'}, listBooks);
+addBook({name: 'book 4', author: 'Yazar 4'}, listBooks); */
 
 ////////////////////////////////////////
 
@@ -87,3 +87,6 @@ function writer(word){
     console.log(word)
 }
 writeName("Umit", writer);//writeName fonk çalıştırılırken writer fonk callback işlevi görüyor.
+
+//callback fonk başka bir fonk içinde argüman olarak kullanılabilir.
+//aynı zamanda writeName yüksek seviyeli fonktur.
